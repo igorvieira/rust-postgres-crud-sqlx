@@ -1,6 +1,6 @@
 use crate::{
     model::NoteModel,
-    schema::{CreateNoteSchema, FilterOptions, UpdateNoteSchema},
+    schema::{ CreateNoteSchema, FilterOptions, UpdateNoteSchema },
     AppState,
 };
 use actix_web::{delete, get, patch, post, web, HttpResponse, Responder};
